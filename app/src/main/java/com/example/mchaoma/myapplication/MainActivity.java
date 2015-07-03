@@ -83,6 +83,13 @@ public class MainActivity extends Activity
         }
     }
 
+    /**
+     * 点退后回到上级网页
+     *
+     * @param keyCode 按钮信息
+     * @param event   点击事件
+     * @return 消费与否
+     */
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event)
     {
